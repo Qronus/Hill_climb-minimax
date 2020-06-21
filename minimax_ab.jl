@@ -10,8 +10,6 @@ function empty()
 end
 
 
-
-
 function render(grid)
 
     
@@ -152,11 +150,7 @@ function actions(grid)
     #shuffle!(result)
     return result
 
-
 end
-
-   
-
 
 
 
@@ -211,8 +205,6 @@ end
 
 
 
-
-
 function best_move(grid)
      # find all empty cells and compute the minimax for each one
     m = alpha = -Inf   
@@ -252,8 +244,6 @@ function get_user_input(grid)
 
         print("\n\nEnter choice (between 1-9): ")
         choice = readline()
-
-       
        
 
         # validate input
@@ -353,92 +343,6 @@ function play()
 end
 
 play()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
